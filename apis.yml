@@ -1,9 +1,27 @@
 aid: pramaana-labs
 name: Pramaana Labs
-description: 'Pramaana Labs is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Pramaana Labs is a frontier AI research lab building the verification
+  layer for high-stakes, mission-critical AI. The company turns complex human knowledge
+  - tax codes, clinical guidelines, legal rules, and safety constraints - into machine-checkable
+  logic, so that every AI answer can be traced, challenged, and proved rather than
+  merely sounding plausible. Its stack compiles domain rules into formal systems that
+  return proofs, counterexamples, and traceable explanations. Pramaana Labs raised
+  $27M to build a compiler for mission-critical AI and is backed by Accel. At this
+  time the company operates as a research lab with published work (RuleArena, arXiv)
+  and no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/pramaana-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/rfbjsmqHKkTs21MVCQUqQkkI4Bk.jpeg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Verification
+- Formal Methods
+- Machine Learning
+- Research
+- Compiler
+- LLM
+- Reasoning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pramaana-labs-domain-security.yml
 - type: Website
   url: https://pramaanalabs.ai/
+- type: Blog
+  url: https://pramaanalabs.ai/blog
+- type: PrivacyPolicy
+  url: https://pramaanalabs.ai/legal/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pramaana-labs/
+- type: Twitter
+  url: https://x.com/PramaanaLabs
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
