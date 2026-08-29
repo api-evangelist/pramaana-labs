@@ -10,6 +10,17 @@ description: 'Pramaana Labs is a frontier AI research lab building the verificat
   time the company operates as a research lab with published work (RuleArena, arXiv)
   and no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/pramaana-labs/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
