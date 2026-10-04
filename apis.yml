@@ -47,7 +47,7 @@ tags:
 - Artificial Intelligence
 - Verification
 - Formal Methods
-- Machine-Learning
+- Machine Learning
 - Research
 - Compilers
 - LLM
@@ -63,6 +63,7 @@ tags_raw:
 - Compiler
 - LLM
 - Reasoning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
